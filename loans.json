@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "id": "f00dfdba-cdbd-4260-8c48-1a5add66aef9",
+    "item": {
+      "id": "c1c22e76-962e-4f79-aa8a-794cf9b65270",
+      "title": "Pronto",
+      "year": 2011,
+      "isAvailable": false,
+      "editor": "Random House Penguin sarasa"
+    },
+    "user": {
+      "id": "b0ecd8c5-31c8-47a0-89c7-1056597e7eee",
+      "scoring": 3,
+      "isPenalized": false,
+      "name": "Marcelo Bettini",
+      "address": {
+        "street": "Humberto Primo",
+        "number": 602,
+        "apartment": "1C"
+      },
+      "phoneNumber": "123-444-555",
+      "penaltyDate": "2023-10-23T01:03:41.980Z"
+    },
+    "loanDate": "2023-10-24T01:03:48.180Z",
+    "dueDate": "2023-10-31T01:03:48.180Z"
+  }
+]

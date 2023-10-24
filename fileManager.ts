@@ -19,10 +19,7 @@ export class FileManager {
   }
   static appendUsers(data: User[]) {
     try {
-      const users = fs.readFileSync("./users.json", { encoding: "utf-8" });
-      let contenidoJSON = JSON.parse(users);
-      contenidoJSON.push(data);
-      fs.writeFileSync("./users.json", JSON.stringify(contenidoJSON, null, 2), {
+      fs.writeFileSync("./users.json", JSON.stringify(data, null, 2), {
         encoding: "utf8",
       });
     } catch (err) {
@@ -43,10 +40,7 @@ export class FileManager {
   }
   static appendLoan(data: Loan[]) {
     try {
-      const loans = fs.readFileSync("./loans.json", { encoding: "utf-8" });
-      let contenidoJSON = JSON.parse(loans);
-      contenidoJSON.push(data);
-      fs.writeFileSync("./loans.json", JSON.stringify(contenidoJSON, null, 2), {
+      fs.writeFileSync("./loans.json", JSON.stringify(data, null, 2), {
         encoding: "utf8",
       });
     } catch (err) {
@@ -65,10 +59,7 @@ export class FileManager {
   }
   static appendLibraryItem(data: LibraryItem[]) {
     try {
-      const libraryItems = fs.readFileSync("./libraryItems.json", { encoding: "utf-8" });
-      let contenidoJSON = JSON.parse(libraryItems);
-      contenidoJSON.push(data);
-      fs.writeFileSync("./libraryItems.json", JSON.stringify(contenidoJSON, null, 2), {
+      fs.writeFileSync("./libraryItems.json", JSON.stringify(data, null, 2), {
         encoding: "utf8",
       });
     } catch (err) {

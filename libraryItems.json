@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "5e3356fb-ded2-410b-b0a1-b21e08ae4c57",
+    "title": "A sangre fría",
+    "year": 1977,
+    "isAvailable": true,
+    "author": "Rodolfo Walsh"
+  },
+  {
+    "id": "c1c22e76-962e-4f79-aa8a-794cf9b65270",
+    "title": "Pronto",
+    "year": 2011,
+    "isAvailable": true,
+    "editor": "Random House Penguin sarasa"
+  }
+]

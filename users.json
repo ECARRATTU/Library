@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "b0ecd8c5-31c8-47a0-89c7-1056597e7eee",
+    "scoring": 0,
+    "isPenalized": false,
+    "name": "Marcelo Bettini",
+    "address": {
+      "street": "Humberto Primo",
+      "number": 602,
+      "apartment": "1C"
+    },
+    "phoneNumber": "123-444-555",
+    "penaltyDate": "2023-10-23T01:03:41.980Z"
+  }
+]
